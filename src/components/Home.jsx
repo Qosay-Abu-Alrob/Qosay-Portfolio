@@ -3,7 +3,7 @@ import personalImage from '../assets/Qosay Abu Alrob.jpeg'
 import CV from '../assets/Qosay Abu Alrob.pdf'
 function Home() {
     return ( 
-        <section id="Home" className="bg-background  px-20 xs:pt-10 md:pt-28">
+        <section id="Home" className="bg-background  xs:px-10 sm:px-20 xs:pt-10 md:pt-28">
             <div className='grid md:grid-cols-[repeat(2,1fr)] items-center '>
                 <div className='xs:text-center md:text-left xs:order-3 md:-order-none'>
                     <h1 className='xs:text-[28px] md:text-[56px]  xs:pt-5'>Hi I'm <span className='text-primary'>Qosay</span></h1>
@@ -12,8 +12,8 @@ function Home() {
                         and user-friendly web interfaces using modern technologies such as <span className='text-primary'>React.js,Tailwind CSS.</span>
                     </p>
                     <div className="mt-10 pb-10">
-                        <a className='text-primary border-primary border rounded-md xs:py-[7px] xs:px-[16px] md:py-[14px] md:px-[32px] mr-4 contact-hover' href="#Contact">Get in Touch</a>
-                        <a className='text-primary border-primary border rounded-md xs:py-[7px] xs:px-[16px] md:py-[14px] md:px-[32px] contact-hover' href={CV} download={CV}>Download CV</a>
+                        <a className='text-primary border-primary border rounded-md xs:py-[7px] xs:px-[6px] md:py-[14px] md:px-[32px] mr-2 contact-hover' href="#Contact">Get in Touch</a>
+                        <a className='text-primary border-primary border rounded-md xs:py-[7px] xs:px-[6px] md:py-[14px] md:px-[32px] contact-hover' href={CV} download={CV}>Download CV</a>
                     </div>
                 </div>
                 <div className='xs:flex xs:justify-center xs:items-center'>

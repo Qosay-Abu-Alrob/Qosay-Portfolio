@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 function Footer() {
     return ( 
-        <section className='bg-background pt-10 h-[20vh]'>
+        <section className='bg-background pt-10'>
             <div><hr /></div>
             <div className='flex justify-evenly items-center mt-10 xs:flex-col sm:flex-row pb-10'>
                 <div>

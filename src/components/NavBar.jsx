@@ -9,7 +9,7 @@ function NavBar() {
     };
 
     return (
-        <nav className="flex items-center justify-between bg-white px-20 py-4 uppercase">
+        <nav className="flex items-center justify-between bg-white xs:px-5 sm:px-20 py-4 uppercase">
             <ul>
                 <li><a className='font-bold text-2xl text-primary' href="#">&lt;<span className='text-black text-2xl font-bold'>Qosay</span>/&gt;</a></li>
             </ul>
