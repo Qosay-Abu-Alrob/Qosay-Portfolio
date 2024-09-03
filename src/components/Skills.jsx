@@ -14,7 +14,7 @@ function Skills() {
         <section id="Skills" className="px-20 pb-10">
             <h1 className='xs:text-[28px] md:text-[56px]  xs:py-5 text-center text-primary'>Skills</h1>
             <div className='grid xs:grid-cols-1  md:grid-cols-2 gap-5 place-items-center'>
-                <div className='grid xs:grid-cols-3 xs:gap-6 sm:grid-cols-4 md:grid-cols-4 md:gap-4'>
+                <div className='grid xs:grid-cols-3 xs:gap-10 sm:grid-cols-4 md:grid-cols-4 md:gap-4'>
                     <div className='w-[90px] h-[90px] rounded-[50%] bg-[#EDF2F8] flex flex-col items-center justify-center '>
                         <img className='w-[50%]' src={HtmlIcon} alt="Html" />
                         <p>HTML</p>
@@ -52,9 +52,9 @@ function Skills() {
                         <p>TypeScript</p>
                     </div>
                 </div>
-                <div className='w-[70%] h-[100%] grid gap-5'>
+                <div className='w-[100%] h-[100%] grid gap-5'>
                     <div className='flex xs:justify-center md:justify-start xs:mt-5'>
-                        <p className='text-primary font-bold mr-24'>2024</p>
+                        <p className='text-primary font-bold xs:mr-5 sm:mr-24'>2024</p>
                         <div>
                             <p className='text-darkblue font-bold'>Computer System Engineer </p>
                             <span className='text-[#6b7688]'>Graduate</span>
@@ -62,7 +62,7 @@ function Skills() {
                         
                     </div>
                     <div className='flex xs:justify-center md:justify-start'>
-                        <p className='text-primary font-bold mr-24'>2023</p>
+                        <p className='text-primary font-bold xs:mr-5 sm:mr-24'>2023</p>
                         <div>
                             <p className='text-darkblue font-bold'>Front-End Engineer Trainee</p>
                             <span className='text-[#6b7688]'>Asal Technology</span>
@@ -70,7 +70,7 @@ function Skills() {
                         
                     </div>
                     <div className='flex xs:justify-center md:justify-start'>
-                        <p className='text-primary font-bold mr-24'>2022</p>
+                        <p className='text-primary font-bold xs:mr-5 sm:mr-24'>2022</p>
                         <div>
                             <p className='text-darkblue font-bold'>IEEEXtreme 16.0 Participant</p>
                             <span className='text-[#6b7688]'>IEEEXtreme</span>
