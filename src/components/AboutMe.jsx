@@ -2,7 +2,7 @@
 import AboutMeImage from '../assets/AboutMeImage.jpg'
 function AboutMe() {
     return (  
-        <section id="About" className="bg-white px-20 xs:pt-10 sm:pt- md:pt-28"> 
+        <section id="About" className="bg-white xs:px-5 sm:px-20 xs:pt-10 sm:pt- md:pt-28"> 
         <p className='xs:text-[28px] text-darkblue md:text-[36px] text-center pb-5'>&quot;Later Equal <span className='text-primary'>Never</span> So Just Start&quot;</p>
             <div className='grid md:grid-cols-[repeat(2,1fr)] items-center '>
                 

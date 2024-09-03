@@ -5,7 +5,7 @@ import ToDoList from '../assets/ToDoList.png'
 import Restaurant from '../assets/Restaurant.png'
 function Projects() {
     return ( 
-        <section id="Projects" className="px-20 bg-background pb-10">
+        <section id="Projects" className="xs:px-5 sm:px-20 bg-background pb-10">
             <div>
             <h1 className='xs:text-[28px] md:text-[56px]  xs:pt-5 text-center text-primary '>Projects</h1>
                 <div className="flex flex-wrap justify-center  gap-5 xs:place-items-center">

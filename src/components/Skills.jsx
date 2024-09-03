@@ -11,10 +11,10 @@ import TypeScriptIcon from '../assets/TypeScriptIcon.png'
 
 function Skills() {
     return ( 
-        <section id="Skills" className="px-20 pb-10">
+        <section id="Skills" className="xs:px-5 sm:px-20 pb-10">
             <h1 className='xs:text-[28px] md:text-[56px]  xs:py-5 text-center text-primary'>Skills</h1>
             <div className='grid xs:grid-cols-1  md:grid-cols-2 gap-5 place-items-center'>
-                <div className='grid xs:grid-cols-3 xs:gap-10 sm:grid-cols-4 md:grid-cols-4 md:gap-4'>
+                <div className='grid xs:grid-cols-3 xs:gap-5 sm:grid-cols-4 md:grid-cols-4 md:gap-4'>
                     <div className='w-[90px] h-[90px] rounded-[50%] bg-[#EDF2F8] flex flex-col items-center justify-center '>
                         <img className='w-[50%]' src={HtmlIcon} alt="Html" />
                         <p>HTML</p>
